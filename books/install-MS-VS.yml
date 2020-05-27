@@ -1,0 +1,12 @@
+---
+- hosts:
+  vars:
+  become: true
+  remote_user: user-ansible
+  tasks:
+  - name: Install prerequisites
+    apt: update_cache=yes state=latest force_apt_get=yes
+
+  - name: Installation de Visual Studio
+    apt: name={{ item }} update_cache=yes state=latest
+    loop: [ 'code', 'git-hub']
