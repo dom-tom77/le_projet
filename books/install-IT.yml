@@ -1,5 +1,5 @@
 ---
-- hosts: baobab 
+- hosts: 
   vars:
   become: true
   remote_user: user-ansible
