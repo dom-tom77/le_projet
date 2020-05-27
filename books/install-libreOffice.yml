@@ -1,0 +1,9 @@
+---
+- hosts: 
+  vars:
+  remote_user: user-ansible
+  tasks:
+  - name: Installation de libre Office
+    apt:
+      name: libreoffice
+      state: present
