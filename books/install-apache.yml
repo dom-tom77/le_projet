@@ -1,0 +1,23 @@
+---
+- hosts: 
+  vars:
+  become: true
+  remote_user: user-ansible
+  tasks:
+    - name: Install prerequisites
+      apt: update_cache=yes state=latest force_apt_get=yes
+
+  #Apache Configuration
+    - name: Install LAMP Packages
+      apt: name={{ item }} update_cache=yes state=latest
+      loop: [ 'apache2', 'mariadb-server', 'python3-pymysql', 'php7.3', 'php-mysql', 'libapache2-mod-php', 'google-chrome-stable' ]
+  handlers:
+    - name: Reload Apache
+      service:
+        name: apache2
+        state: reloaded
+
+    - name: Restart Apache
+      service:
+        name: apache2
+        state: restarted
