@@ -5,11 +5,11 @@ Ses formations sont sur les thématiques suivantes : dévellopement web (LAMP), 
 
 Les formations sont prévues dans les salles Abeille et Baobab. Chaque salle dispose de quinze ordinateurs. Dans la salle Cacao, un serveur Linux permettant de gérer les services réseaux (DNS, DHCP, PXE, TFTP), fera office de routeur.
 
-Il est prévu qu'a chaque fin de formation, les postes clients d'une même salle, soient réinitialisés.
+Il est prévu qu'à chaque fin de formation, les postes clients d'une même salle, soient réinitialisés.
 
 Consciente des avantages proposées par l'open source aussi bien au niveau sécurité que financier, tous les postes sont installés sous GNU/Linux Debian.
 
-Afin d'automatiser au maximum l'installation des postes clients, une solution DNS, DHCP, avec reservation d'adresse, un service PXE / TFTP et l'installation via un fichier preseed et serveur de dépots sont déjà en place et sont fonctionnels.
+Afin d'automatiser au maximum l'installation des postes clients, une solution DNS, DHCP, avec réservation d'adresses, un service PXE / TFTP et l'installation via un fichier preseed et serveur de dépots sont déjà en place et sont fonctionnels.
 
 Les postes sont ainsi réinstallés à la fin de chaque formation de façon basique et commune (juste l'interface GNOME3).
 
@@ -20,3 +20,5 @@ Enfin un script permet via un menu de choisir les salles (Abeille, Baobab, les 2
 Il y a 4 books "yml" possible qui seront appelés et executés.
 
 Bonne formation ;)
+
+
