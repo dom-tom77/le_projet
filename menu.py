@@ -5,13 +5,12 @@ import locale
 import subprocess
 from dialog import Dialog
 
-# permet de s'apuyer sur les parametres régionaux du système
+# Permet de s'appuyer sur les parametres régionaux du système (langue, clavier, etc...)
 locale.setlocale(locale.LC_ALL, '')
 
+# Déclaration du titre de la boîte de dialogue
 d = Dialog(dialog="dialog")
-# Déclaration du titre de la boîte de dialoque
 d.set_background_title("FORMATIONS")
-
 
 # Ouverture de la boîte de dialogue
 if d.yesno("Outils de déployement des logiciels nécessaire aux formations....\n \nVoullez-vous continuer ?") == d.OK:
@@ -23,7 +22,7 @@ if d.yesno("Outils de déployement des logiciels nécessaire aux formations....\
                                 ("3", "ALL")])
     if code == d.OK:
         
-        # 'choixSalle' est maintenant soit "1", "2", ou "3"
+        # 'choixSalle' a comme valeur soit "1", "2", ou "3"
         if choixSalle == "1":
            salle = "abeille"
         if choixSalle == "2":
@@ -39,7 +38,7 @@ if d.yesno("Outils de déployement des logiciels nécessaire aux formations....\
                                 ("3", "IT"),
                                 ("4", "Bureautique")])
     if code == d.OK:
-        # 'choixFormation' est maintenant soit  "1", "2", "3" ou "4"
+        # 'choixFormation' a comme valeur  "1", "2", "3" ou "4"
 
         if choixFormation == "1":
            book = "install-apache.yml"
@@ -50,7 +49,6 @@ if d.yesno("Outils de déployement des logiciels nécessaire aux formations....\
         if choixFormation == "4":
            book = "install-libreOffice.yml"
 
-
-# execute le playbook
+# Execute le playbook
         subprocess.call(["./run.sh", salle, book])
         pass
