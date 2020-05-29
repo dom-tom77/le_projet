@@ -49,6 +49,6 @@ if d.yesno("Outils de déployement des logiciels nécessaire aux formations....\
         if choixFormation == "4":
            book = "install-libreOffice.yml"
 
-# Execute le playbook
+        # Execute le playbook
         subprocess.call(["./run.sh", salle, book])
         pass
