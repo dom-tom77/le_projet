@@ -9,4 +9,4 @@
 
   - name: Installation de Visual Studio
     apt: name={{ item }} update_cache=yes state=latest
-    loop: [ 'code', 'git-hub']
+    loop: [ 'code', 'git-hub', 'gitg']
