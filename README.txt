@@ -1,7 +1,7 @@
 Mise en situation
 
 Le centre de formation “DMZ” propose des formations basées sur des systèmes et logiciels libres.
-Ses formations sont sur les thématiques suivantes : développement web (LAMP), Visual studio , bureautique et IT.
+Ses formations sont sur les thématiques suivantes: développement web (LAMP), Visual studio , bureautique et IT.
 
 Les formations sont prévues dans les salles Abeille et Baobab. Chaque salle dispose de quinze ordinateurs. Dans la salle Cacao, un serveur Linux permettant de gérer les services réseaux (DNS, DHCP, PXE, TFTP), fera office de routeur.
 
@@ -17,7 +17,7 @@ Ansible permet le déploiement des outils spécifiques liès aux formations. Du 
 
 Enfin un script permet via un menu de choisir les salles (Abeille, Baobab, les 2) puis les formations précités afin d'envoyer les ordres d'installation des outils liés à la formation.
 
-Il y a 4 books "yml" possible qui seront appelés et executés.
+Il y a 4 books "yml" possible qui seront appelés et exécutés.
 
 Bonne formation ;)
 
