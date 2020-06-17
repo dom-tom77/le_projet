@@ -13,7 +13,7 @@ d = Dialog(dialog="dialog")
 d.set_background_title("FORMATIONS")
 
 # Ouverture de la boîte de dialogue
-if d.yesno("Outils de déployement des logiciels nécessaire aux formations....\n \nVoullez-vous continuer ?") == d.OK:
+if d.yesno("Outils de déployement des logiciels nécessaire aux formations....\n \nVoulez-vous continuer?") == d.OK:
     pass
 
     code, choixSalle = d.menu("Choix de la salle",
