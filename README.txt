@@ -1,7 +1,7 @@
 Mise en situation
 
 Le centre de formation “DMZ” propose des formations basées sur des systèmes et logiciels libres.
-Ses formations sont sur les thématiques suivantes : dévellopement web (LAMP), Visual studio , bureautique et IT.
+Ses formations sont sur les thématiques suivantes : développement web (LAMP), Visual studio , bureautique et IT.
 
 Les formations sont prévues dans les salles Abeille et Baobab. Chaque salle dispose de quinze ordinateurs. Dans la salle Cacao, un serveur Linux permettant de gérer les services réseaux (DNS, DHCP, PXE, TFTP), fera office de routeur.
 
