@@ -13,9 +13,9 @@ Les postes sont ainsi réinstallés à la fin de chaque formation de façon basi
 
 Ansible permet le déploiement des outils spécifiques liès aux formations. Du fait de la particularité qu'il s'agisse d'un centre de formation la configuration des outils se fera par les apprenants durant la dite formation.
 
-Enfin un script permet via un menu de choisir les salles (Abeille, Baobab, les 2) puis les formations précités afin d'envoyer les ordres d'installation des outils liès à la formation.
+Enfin un script permet via un menu de choisir les salles (Abeille, Baobab ou les deux) puis les formations, afin d'envoyer les ordres d'installation des outils liès à la salle.
 
-Il y a 4 books "yml" possible qui seront appelés et exécutés.
+Il y a quatre books "yml" possibles qui seront appelés et exécutés.
 
 Bonne formation ;)
 
